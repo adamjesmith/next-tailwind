@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 
 import { openGraph } from '@/lib/helper';
 
-// !STARTERCONF Change these default meta
 const defaultMeta = {
   title: 'Next.js + Tailwind CSS + TypeScript Starter',
   siteName: 'Next.js + Tailwind CSS + TypeScript Starter',
@@ -12,7 +11,6 @@ const defaultMeta = {
   url: 'https://next-tailwind-jm98picjx-adamjesmith.vercel.app',
   type: 'website',
   robots: 'follow, index',
-  /** No need to be filled, will be populated with openGraph function */
   image: '',
 };
 

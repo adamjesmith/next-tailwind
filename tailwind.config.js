@@ -15,10 +15,6 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      fontFamily: {
-        primary: ['Inter', ...fontFamily.sans],
-        montserrat: ['montserrat', ...fontFamily.sans],
-      },
       maxWidth: {
         '8xl': '1920px',
       },
